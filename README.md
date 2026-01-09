@@ -1,6 +1,6 @@
-#🛍️ Customer Shopping Behavior – Data Analytics Project
+🛍️ #Customer Shopping Behavior – Data Analytics Project
 
-##🔍 Overview
+🔍 ##Overview
 
 This project analyzes customer shopping behavior to understand purchasing patterns, preferences, and key factors influencing sales. It follows a complete data analytics workflow—from raw data to insights and presentation.
 
