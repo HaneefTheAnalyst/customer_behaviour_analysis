@@ -137,6 +137,7 @@ This project analyzes customer shopping behavior to understand purchasing patter
 
 ## ✅ Results & Key Insights
 * Identified high-value customer groups
+
 ![age_group](/img/age_group_revenue.PNG)
 
 * Observed key factors influencing purchase frequency
