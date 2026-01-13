@@ -1,163 +1,177 @@
-🛍️ #Customer Shopping Behavior – Data Analytics Project
+# 🛍️ Customer Shopping Behavior – Data Analytics Project
 
-🔍 ##Overview
+## 🔍 Overview
 
 This project analyzes customer shopping behavior to understand purchasing patterns, preferences, and key factors influencing sales. It follows a complete data analytics workflow—from raw data to insights and presentation.
 
-The project includes:
+##### The project includes:
 
-Loading the dataset in Python
+* Loading the dataset in Python
 
-Performing Exploratory Data Analysis (EDA)
+* Performing Exploratory Data Analysis (EDA)
 
-Cleaning and preparing the data
+* Cleaning and preparing the data
 
-Running SQL queries in SQL Server
+* Running SQL queries in SQL Server
 
-Building an interactive dashboard in Power BI
+* Building an interactive dashboard in Power BI
 
-Writing an analytical report
+* Writing an analytical report
 
-Creating a presentation using Gamma
+* Creating a presentation using Gamma
 
-This project demonstrates my ability to work across tools and communicate insights clearly.
+##### This project demonstrates my ability to work across tools and communicate insights clearly.
 
-📁 Dataset – Customer Shopping Behavior
+## 📁 Dataset – Customer Shopping Behavior
 
-Dataset Name: Customer Shopping Behavior
+* Dataset Name: Customer Shopping Behavior
 
-Description: Contains customer demographics, shopping habits, spending patterns, and transaction details
+* Description: Contains customer demographics, shopping habits, spending patterns, and transaction details
 
-Format: CSV / Excel (update as applicable)
+* Format: CSV
 
-Objective: Identify trends and generate insights that support business decision-making
+* Objective: Identify trends and generate insights that support business decision-making
 
-Add dataset source if applicable, or state “dataset collected from open-source platforms”.
 
-🛠 Tools & Technologies
+## 🛠 Tools & Technologies
 
-Python: Data loading, EDA, cleaning
+* Python: Data loading, EDA, cleaning
 
-Libraries: pandas, numpy, matplotlib, seaborn
+* Libraries: pandas, numpy, pyodbc, sqlalchemy
 
-SQL Server: Querying, aggregation, and data analysis
+* SQL Server: Querying, aggregation, and data analysis
 
-Power BI: Dashboard creation & visualization
+* Power BI: Dashboard creation & visualization
 
-Gamma: Final project presentation slides
+* Gamma: Final project presentation slides
 
-Git & GitHub: Version control and documentation
 
-🧭 Project Steps
-1️⃣ Data Loading (Python)
+## 🧭 Project Steps
 
-Imported dataset into Python
+### 1️⃣ Data Loading (Python)
 
-Inspected structure, shape, and data types
+* Imported dataset into Python
+![imported_data](imported_data.PNG)
 
-Previewed rows and columns
+* Inspected structure, shape, and data types
 
-2️⃣ Exploratory Data Analysis (EDA)
+![data_types](data_types.PNG)
 
-Summary statistics
+* Previewed rows and columns
 
-Distribution of customer spending
+### 2️⃣ Exploratory Data Analysis (EDA)
 
-Shopping frequency patterns
+* Summary statistics
+![statistics_summary](statistics_overview.PNG)
 
-Identification of trends and relationships
+* Distribution of customer spending
 
-3️⃣ Data Cleaning
+* Shopping frequency patterns
 
-Treated missing values
+* Identification of trends and relationships
 
-Removed duplicate records
+### 3️⃣ Data Cleaning
 
-Corrected inconsistent entries
+* Treated missing values
+    * Before: ![before](missing_value.PNG)
+    * After: ![after](corrected_value.PNG)
 
-Converted data types where necessary
+* Removed duplicate records
 
-4️⃣ SQL Analysis (SQL Server)
+* Corrected inconsistent entries
 
-Loaded cleaned data into SQL Server
+* Converted data types where necessary
 
-Executed queries to:
+### 4️⃣ SQL Analysis (SQL Server)
 
-calculate totals and averages
+* Loaded cleaned data into SQL Server
 
-segment customers
+* Executed queries to:
 
-analyze product and category performance
+    * calculate totals and averages
 
-generate KPIs
+    * segment customers
 
-5️⃣ Power BI Dashboard
+    ![age_group](segment_customer.PNG)
 
-Connected cleaned dataset
+    * analyze product and category performance
 
-Designed interactive visualizations
+    ![product](<top 3 purchase_category.PNG>)
 
-Added slicers for customer segments and product categories
+    * generate KPIs
 
-Created KPI cards and trend charts
+### 5️⃣ Power BI Dashboard
 
-6️⃣ Reporting & Presentation
+* Connected cleaned dataset
 
-Wrote a clear analytical report summarizing findings
+* Designed interactive visualizations
+![dashboard](customerBehavior.PNG)
 
-Built a presentation using Gamma to communicate insights to stakeholders
+* Added slicers for customer segments and product categories
 
-📊 Dashboard Highlights
+![slicer](customerBehavior_slicer.PNG)
 
-The Power BI dashboard provides:
+* Created KPI cards and trend charts
 
-Customer segmentation
+### 6️⃣ Reporting & Presentation
 
-Spending behavior analysis
+* Wrote a clear analytical report summarizing findings
 
-Popular product categories
+* Built a presentation using Gamma to communicate insights to stakeholders
 
-Time-based trends
+## 📊 Dashboard Highlights
 
-Key performance indicators (KPIs)
+#### The Power BI dashboard provides:
+![customer_behavior](customerBehavior.PNG)
 
-(Add screenshots here if available)
+* Customer segmentation
 
-✅ Results & Key Insights
+* Spending behavior analysis
 
-Identified high-value customer groups
+* Popular product categories
 
-Observed key factors influencing purchase frequency
+* Key performance indicators (KPIs)
+![KPIS](customerBehavior_KPI.PNG)
 
-Detected seasonal or time-based shopping trends
 
-Provided recommendations to improve marketing and sales strategies
+## ✅ Results & Key Insights
+* Identified high-value customer groups
+![age_group](age_group_revenue.PNG)
 
-(Replace with your exact insights once analysis is completed.)
+* Observed key factors influencing purchase frequency
 
-▶️ How to Run the Project
-📌 Requirements
+*  Customer Loyalty Programs
 
-Python 3.x
+       * Reward repeat buyers to move them into the “Loyal” segment
 
-SQL Server
+* Provided recommendations to improve marketing and sales strategies
 
-Power BI Desktop
 
-🚀 Steps
+## ▶️ How to Run the Project
 
-Clone this repository
+### 📌 Requirements
 
-Open the Python notebook/script in the notebooks folder
+* Python 3.x
 
-Install required Python libraries
+* SQL Server
 
-Load the Customer Shopping Behavior dataset
+* Power BI Desktop
 
-Perform EDA and data cleaning
+## 🚀 Steps
 
-Import cleaned dataset into SQL Server
+1. Clone this repository
 
-Open the Power BI file and refresh data
+2. Open the Python notebook/script in the notebooks folder
 
-View dashboard and final insights
+3. Install required Python libraries
+
+4. Load the Customer Shopping Behavior dataset
+
+5. Perform EDA and data cleaning
+
+6. Import cleaned dataset into SQL Server
+
+7. Open the Power BI file and refresh data
+
+
+8. View dashboard and final insights
