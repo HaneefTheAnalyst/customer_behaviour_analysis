@@ -51,18 +51,19 @@ This project analyzes customer shopping behavior to understand purchasing patter
 ### 1️⃣ Data Loading (Python)
 
 * Imported dataset into Python
-![imported_data](imported_data.PNG)
+![imported_data](/img/imported_data.PNG)
+
 
 * Inspected structure, shape, and data types
 
-![data_types](data_types.PNG)
+![data_types](/img/data_types.PNG)
 
 * Previewed rows and columns
 
 ### 2️⃣ Exploratory Data Analysis (EDA)
 
 * Summary statistics
-![statistics_summary](statistics_overview.PNG)
+![statistics_summary](/img/statistics_overview.PNG)
 
 * Distribution of customer spending
 
@@ -73,8 +74,8 @@ This project analyzes customer shopping behavior to understand purchasing patter
 ### 3️⃣ Data Cleaning
 
 * Treated missing values
-    * Before: ![before](missing_value.PNG)
-    * After: ![after](corrected_value.PNG)
+    * Before: ![before](/img/missing_value.PNG)
+    * After: ![after](/img/corrected_value.PNG)
 
 * Removed duplicate records
 
@@ -92,11 +93,11 @@ This project analyzes customer shopping behavior to understand purchasing patter
 
     * segment customers
 
-    ![age_group](segment_customer.PNG)
+    ![age_group](/img/segment_customer.PNG)
 
     * analyze product and category performance
 
-    ![product](<top 3 purchase_category.PNG>)
+    ![product](</img/top 3 purchase_category.PNG>)
 
     * generate KPIs
 
@@ -105,11 +106,11 @@ This project analyzes customer shopping behavior to understand purchasing patter
 * Connected cleaned dataset
 
 * Designed interactive visualizations
-![dashboard](customerBehavior.PNG)
+![dashboard](/img/customerBehavior.PNG)
 
 * Added slicers for customer segments and product categories
 
-![slicer](customerBehavior_slicer.PNG)
+![slicer](/img/customerBehavior_slicer.PNG)
 
 * Created KPI cards and trend charts
 
@@ -122,7 +123,7 @@ This project analyzes customer shopping behavior to understand purchasing patter
 ## 📊 Dashboard Highlights
 
 #### The Power BI dashboard provides:
-![customer_behavior](customerBehavior.PNG)
+![customer_behavior](/img/customerBehavior.PNG)
 
 * Customer segmentation
 
@@ -131,12 +132,12 @@ This project analyzes customer shopping behavior to understand purchasing patter
 * Popular product categories
 
 * Key performance indicators (KPIs)
-![KPIS](customerBehavior_KPI.PNG)
+![KPIS](/img/customerBehavior_KPI.PNG)
 
 
 ## ✅ Results & Key Insights
 * Identified high-value customer groups
-![age_group](age_group_revenue.PNG)
+![age_group](/img/age_group_revenue.PNG)
 
 * Observed key factors influencing purchase frequency
 
